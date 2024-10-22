@@ -21,7 +21,7 @@
 		},
 		{
 			"step": "rm",
-			"path": "/wordpress/wp-content/plugins/hello.php"
+			"path": "/wp-content/plugins/hello.php"
 		}
 	]
 }
