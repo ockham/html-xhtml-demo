@@ -16,7 +16,7 @@
 				"resource": "git:directory",
 				"url": "https://github.com/ockham/html-xhtml-demo.git",
 				"ref": "HEAD",
-				"path": "/"
+				"path": "html-xhtml-demo"
 			}
 		}
 	]
