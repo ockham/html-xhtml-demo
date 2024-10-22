@@ -1,6 +1,6 @@
 {
 	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
-	"landingPage": "/wp-admin/plugin-editor.php?file=https-github.com-ockham-html-xhtml-demo.git%2Fhello-world.html&plugin=https-github.com-ockham-html-xhtml-demo.git%2Fhtml-xhtml-demo.php",
+	"landingPage": "/wp-admin/plugin-editor.php",
 	"preferredVersions": {
 		"php": "8.0",
 		"wp": "latest"
