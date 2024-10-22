@@ -1,0 +1,23 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"landingPage": "/wp-admin/plugin-editor.php?file=html-xhtml-demo%2Fhello-world.html&plugin=html-xhtml-demo%2Fhtml-xhtml-demo.php",
+	"preferredVersions": {
+		"php": "8.0",
+		"wp": "latest"
+	},
+	"steps": [
+		{
+			"step": "login",
+			"username": "admin"
+		},
+		{
+			"step": "installPlugin",
+			"pluginData": {
+				"resource": "git:directory",
+				"url": "https://github.com/ockham/html-xhtml-demo.git",
+				"ref": "HEAD",
+				"path": "/"
+			}
+		}
+	]
+}
