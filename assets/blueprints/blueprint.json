@@ -18,6 +18,10 @@
 				"ref": "HEAD",
 				"path": "html-xhtml-demo"
 			}
+		},
+		{
+			"step": "rm",
+			"path": "/wordpress/wp-content/plugins/hello.php"
 		}
 	]
 }
