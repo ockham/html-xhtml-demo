@@ -2,11 +2,11 @@
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <title>XHello XHTML!</title>
+        <title>Hello XHTML!</title>
     </head>
     <body>
       <p>
-        <b>XHello</b><br />
+        <b>Hello</b><br />
         <i>XHTML</i>!
         <img src="a.jpg" alt="An image" />
       </p>
