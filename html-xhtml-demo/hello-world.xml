@@ -6,6 +6,9 @@
     </head>
     <body>
       <p>
+        <a href="/wp-admin/plugin-editor.php">Edit</a>
+      </p>
+      <p>
         <b>Hello</b><br />
         <i>XHTML</i>!
         <img src="a.jpg" alt="An image" />
