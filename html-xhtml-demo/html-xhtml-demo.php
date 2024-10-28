@@ -9,11 +9,8 @@
 defined( 'ABSPATH' ) || exit;
 
 function hello_html_template( $template ) {
-	if ( 'hello-html' === get_query_var('pagename') ) {
-		return __DIR__ . '/hello-world.html';
-	}
-	if ( 'hello-xhtml' === get_query_var('pagename') ) {
-		return __DIR__ . '/hello-world.xml';
+	if ( 'hello-html' === get_query_var('pagename') || 'hello-xhtml' === get_query_var('pagename') ) {
+		return __DIR__ . '/file-loader.php';
 	}
     return $template;
 }
